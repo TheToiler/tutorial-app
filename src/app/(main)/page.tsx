@@ -3,7 +3,7 @@ import { Folder, MessageCircle, Newspaper, User } from "lucide-react";
 
 // Local imports
 import DashboardCard from "@/components/dashboard/DashboardCard";
-import PostsTable from "@/components/PostTable";
+import PostsTable from "@/components/PostsTable";
 import AnalyticsChart from "@/components/AnalyticsCharts";
 
 export default function Home() {

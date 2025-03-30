@@ -19,7 +19,7 @@ import logo from "../img/logo.webp";
 
 const Navbar = () => {
   return (
-    <nav className="bg-primary dark:bg-slate-300 py-2 px-5 flex justify-between sticky-top">
+    <nav className="bg-primary dark:bg-slate-300 py-2 px-5 flex justify-between">
       <Link href="/">
         <Image src={logo} alt="Company logo" width={150} />
       </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
             <Link href="/profile">Profiel</Link>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            <Link href="/login">Uitloggen</Link>
+            <Link href="/auth">Uitloggen</Link>
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
